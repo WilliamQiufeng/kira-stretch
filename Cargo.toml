@@ -5,6 +5,8 @@ edition = "2024"
 description = "A kira effect that shifts the pitch of the audio without changing the speed."
 authors = ["WilliamQiufeng"]
 license = "MIT"
+homepage = "https://github.com/WilliamQiufeng/kira-stretch"
+repository = "https://github.com/WilliamQiufeng/kira-stretch"
 
 [dependencies]
 cpal = "0.15.3"
