@@ -7,12 +7,12 @@ use console::Term;
 use kira::{
     modulator::tweener::TweenerBuilder, sound::static_sound::StaticSoundData, track::TrackBuilder, AudioManager, DefaultBackend, Mapping, Semitones, Tween, Value
 };
-use kira_stretch::effect::pitch::PitcherBuilder;
+use kira_pitcher::effect::pitch::PitcherBuilder;
 
 
 
 #[derive(Parser, Debug)]
-#[command(name = "stretch")]
+#[command(name = "pitcher")]
 struct Args {
     /// The file to play.
     file: PathBuf,

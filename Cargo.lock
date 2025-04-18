@@ -609,7 +609,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "kira-stretch"
+name = "kira-pitcher"
 version = "0.1.0"
 dependencies = [
  "anyhow",
