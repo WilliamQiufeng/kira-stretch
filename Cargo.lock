@@ -241,15 +241,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6"
 
 [[package]]
-name = "cmake"
-version = "0.1.54"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e7caa3f9de89ddbe2c607f4101924c5abec803763ae9534e4f4d7d8f84aa81f0"
-dependencies = [
- "cc",
-]
-
-[[package]]
 name = "colorchoice"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -911,12 +902,12 @@ checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
 name = "signalsmith-stretch"
-version = "0.1.2"
-source = "git+https://github.com/WilliamQiufeng/signalsmith-stretch-rs#5d1fbaca583b9d5e3c843b2e35bf1871e88ca33d"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dfeed02e711d433ff8f50cf69fc20f9fc2678ac08d57b9ebecac7838b3101e61"
 dependencies = [
  "bindgen",
  "cc",
- "cmake",
  "dasp",
 ]
 
